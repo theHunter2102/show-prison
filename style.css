@@ -9,13 +9,16 @@ body {
 }
 
 .Container {
-    width: 80%;
+    width: 70%;
     height: auto;
     /*background-color: forestgreen;*/
 }
 
 .content {
+    /*background: aquamarine;*/
     display: flex;
+    justify-content: right;
+    text-align: right;
     align-items: center;
     /*background-color: #00f7ff;*/
     width: 100%;
@@ -44,11 +47,13 @@ body {
 /*}*/
 
 .content label {
+    /*background: #00f7ff;*/
     height: auto;
-    width: 30%;
+    width: 20%;
+    margin-left: 15%;
     padding-right: 30px;
     box-sizing: border-box;
-    text-align: right;
+    text-align: center;
     font-weight: bold;
     font-size: 18px;
 }
@@ -60,6 +65,7 @@ body {
     padding: 20px;
     display: block;
     margin: auto;
+    text-align: right;
 }
 
 #scrollToTop {
